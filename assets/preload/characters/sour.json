@@ -2,187 +2,168 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
+				0,
 				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "BF idle dance"
+			"name": "Sour Idle"
 		},
 		{
 			"offsets": [
-				5,
-				-6
+				-11,
+				44
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF NOTE LEFT0"
+			"name": "Sour Left0"
 		},
 		{
 			"offsets": [
-				-20,
-				-51
+				-4,
+				-9
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "BF NOTE DOWN0"
+			"name": "Sour Down0"
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				-11,
+				102
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "BF NOTE UP0"
+			"name": "Sour Up0"
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				-14,
+				5
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"name": "Sour Right0"
 		},
 		{
 			"offsets": [
-				7,
-				19
+				-6,
+				30
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"name": "Sour Left MISS"
 		},
 		{
 			"offsets": [
-				-15,
-				-19
+				-3,
+				16
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWNmiss",
 			"indices": [],
-			"name": "BF NOTE DOWN MISS"
+			"name": "Sour Down MISS"
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				-5,
+				102
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUPmiss",
 			"indices": [],
-			"name": "BF NOTE UP MISS"
+			"name": "Sour Up MISS"
 		},
 		{
 			"offsets": [
-				-44,
-				22
+				-13,
+				12
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
+			"name": "Sour Right MISS"
 		},
 		{
 			"offsets": [
-				-3,
-				5
+				-27,
+				41
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "hey",
+			"anim": "singLEFT-alt",
 			"indices": [],
-			"name": "BF HEY"
-		},
-		{
-			"offsets": [
-				14,
-				18
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hurt",
-			"indices": [],
-			"name": "BF hit"
+			"name": "Sour Left Guitar"
 		},
 		{
 			"offsets": [
 				-4,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
-		},
-		{
-			"offsets": [
-				-10,
-				-16
+				-11
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "dodge",
+			"anim": "singDOWN-alt",
 			"indices": [],
-			"name": "boyfriend dodge"
+			"name": "Sour Down Guitar"
 		},
 		{
 			"offsets": [
-				294,
-				267
+				-12,
+				36
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "attack",
+			"anim": "singUP-alt",
 			"indices": [],
-			"name": "boyfriend attack"
+			"name": "Sour Up Guitar"
 		},
 		{
 			"offsets": [
-				-40,
-				-40
+				-12,
+				4
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "pre-attack",
+			"anim": "singRIGHT-alt",
 			"indices": [],
-			"name": "bf pre attack"
+			"name": "Sour Right Guitar"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/Sour",
 	"position": [
 		0,
-		350
+		90
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "sour",
+	"flip_x": false,
 	"healthbar_colors": [
 		49,
-		176,
-		209
+		235,
+		169
 	],
 	"camera_position": [
 		0,
 		0
 	],
-	"sing_duration": 4,
-	"scale": 1
+	"sing_duration": 6,
+	"scale": 1,
+	"note": "note_sour",
+	"noteSplash": "splash_sour",
+	"ratings_folder": "sour"
 }

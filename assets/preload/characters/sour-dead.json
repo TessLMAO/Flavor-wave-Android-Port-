@@ -2,55 +2,55 @@
 	"animations": [
 		{
 			"offsets": [
-				37,
-				11
+				0,
+				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "firstDeath",
 			"indices": [],
-			"name": "BF dies"
+			"name": "SourDIE0"
 		},
 		{
 			"offsets": [
-				37,
-				5
+				0,
+				7
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
 			"anim": "deathLoop",
 			"indices": [],
-			"name": "BF Dead Loop"
+			"name": "SourDIELoop"
 		},
 		{
 			"offsets": [
-				37,
-				69
+				0,
+				7
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "deathConfirm",
 			"indices": [],
-			"name": "BF Dead confirm"
+			"name": "SourDIELoop"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND_DEAD",
+	"image": "characters/sour_GO",
 	"position": [
 		0,
-		350
+		90
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "sour",
+	"flip_x": false,
 	"healthbar_colors": [
 		49,
-		176,
-		209
+		235,
+		169
 	],
 	"camera_position": [
-		0,
-		0
+		-100,
+		100
 	],
-	"sing_duration": 4,
+	"sing_duration": 6,
 	"scale": 1
 }

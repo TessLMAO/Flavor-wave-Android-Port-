@@ -2,55 +2,55 @@
 	"animations": [
 		{
 			"offsets": [
-				37,
-				11
+				0,
+				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "firstDeath",
 			"indices": [],
-			"name": "BF dies"
+			"name": "SweetDIE0"
 		},
 		{
 			"offsets": [
-				37,
-				5
+				-6,
+				-1
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
 			"anim": "deathLoop",
 			"indices": [],
-			"name": "BF Dead Loop"
+			"name": "SweetDIELoop"
 		},
 		{
 			"offsets": [
-				37,
-				69
+				-6,
+				-1
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "deathConfirm",
 			"indices": [],
-			"name": "BF Dead confirm"
+			"name": "SweetDIELoop"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND_DEAD",
+	"image": "characters/sweet_GO",
 	"position": [
 		0,
-		350
+		90
 	],
-	"healthicon": "bf",
+	"healthicon": "sour",
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
-		176,
-		209
+		235,
+		169
 	],
 	"camera_position": [
-		0,
-		0
+		-100,
+		100
 	],
-	"sing_duration": 4,
+	"sing_duration": 6,
 	"scale": 1
 }
